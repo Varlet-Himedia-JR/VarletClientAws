@@ -36,7 +36,7 @@ function Login() {
         <>
             <Heading />
             {/* <div style={{ paddingTop: '100px' }}>
-            <div className='background'><img src="http://localhost:8070/images/oceans.jpg"/></div>
+            <div className='background'><img src="http://13.209.93.111:8070/images/oceans.jpg"/></div>
         </div> */}
             {/* 
         <div className='loginlabel'>로그인</div>
@@ -57,13 +57,13 @@ function Login() {
                     <button onClick={() => { navigate('/findPwd') }}>비밀번호 찾기</button>
                 </div>
                 <div className='snslogin'>
-                    <div className='chat'><img src="http://localhost:8070/images/chat.png" /></div>
+                    <div className='chat'><img src="http://13.209.93.111:8070/images/chat.png" /></div>
                     <button onClick={() => {
-                        window.location.href = 'http://localhost:8070/member/kakaoStart';
+                        window.location.href = 'http://13.209.93.111:8070/member/kakaoStart';
                     }}>KAKAO 로그인</button>
-                    <div className='naver'><img src="http://localhost:8070/images/naver.png" /></div>
+                    <div className='naver'><img src="http://13.209.93.111:8070/images/naver.png" /></div>
                     <button onClick={() => {
-                        window.location.href = 'http://localhost:8070/member/naverStart';
+                        window.location.href = 'http://13.209.93.111:8070/member/naverStart';
                     }}>NAVER 로그인</button>
                     <img style={{width:'40px'}} src='https://www.naver.com/favicon.ico'/>
                     <img style={{width:'40px'}} src='https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/kakaoService/cc08d9e2018e00001.png'/>
@@ -83,7 +83,7 @@ function Login() {
                                     style={{ width: '30px' }}
                                     src="https://www.naver.com/favicon.ico"
                                     onClick={() => {
-                                        window.location.href = 'http://localhost:8070/member/naverStart';
+                                        window.location.href = 'http://13.209.93.111:8070/member/naverStart';
                                     }}
                                 />
                             </button>
@@ -92,7 +92,7 @@ function Login() {
                                     style={{ width: '30px' }}
                                     src="https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/kakaoService/cc08d9e2018e00001.png"
                                     onClick={() => {
-                                        window.location.href = 'http://localhost:8070/member/naverStart';
+                                        window.location.href = 'http://13.209.93.111:8070/member/naverStart';
                                     }}
                                 />
                             </button>

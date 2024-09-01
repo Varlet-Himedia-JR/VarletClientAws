@@ -69,7 +69,7 @@ function MyQna() {
     <>
             <Heading />
             <div >
-            <div className='background'><img src="http://localhost:8070/images/oceans.jpg"/></div>
+            <div className='background'><img src="http://13.209.93.111:8070/images/oceans.jpg"/></div>
             </div>
       <div className='QnaPage' style={{ paddingTop: '120px' }}>
         <div className="qnalist" style={{ flex: "4" }}>
@@ -94,7 +94,7 @@ function MyQna() {
                     {qna.subject}
                     {
                       (qna.security === 'Y') ? (
-                        <img style={{ verticalAlign: "middle", marginLeft: "10px" }} src="http://localhost:8070/images/key.png" />
+                        <img style={{ verticalAlign: "middle", marginLeft: "10px" }} src="http://13.209.93.111:8070/images/key.png" />
                       ) : (null)
                     }
                   </div>

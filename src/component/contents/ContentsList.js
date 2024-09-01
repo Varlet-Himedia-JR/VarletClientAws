@@ -137,7 +137,7 @@ function ContentsList() {
         <>
             <Heading />
             {/* <div style={{ paddingTop: '100px' }}>
-                <div className='background'><img src="http://localhost:8070/images/oceans.jpg" /></div>
+                <div className='background'><img src="http://13.209.93.111:8070/images/oceans.jpg" /></div>
             </div> */}
 
             <div className='mycourseContentsList' style={{ marginTop: '80px', bottom: '100px' }}>

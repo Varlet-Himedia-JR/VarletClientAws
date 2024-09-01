@@ -109,7 +109,7 @@ function Qna() {
                                         {qna.subject}
                                         { 
                                             (qna.security == 'N')?(
-                                                <img src="http://localhost:8070/uploads/key.png"/>
+                                                <img src="http://13.209.93.111:8070/uploads/key.png"/>
                                             ):(null)
                                         }
                                     </div>

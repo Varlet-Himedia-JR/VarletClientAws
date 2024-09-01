@@ -44,7 +44,7 @@ function ReviewView() {
                         reviewimg: reviewData.reviewimg
                     });
                     if (reviewData.reviewimg.length > 0) {
-                        setPreviewImage(`http://localhost:8070${reviewData.reviewimg[0].ipath}`);
+                        setPreviewImage(`http://13.209.93.111:8070${reviewData.reviewimg[0].ipath}`);
                     }
                 } else {
                     console.error('Review data is not available.');
@@ -108,7 +108,7 @@ function ReviewView() {
                             reviewimg: result.data.review.reviewimg
                         });
                         if (result.data.review.reviewimg.length > 0) {
-                            setPreviewImage(`http://localhost:8070${result.data.review.reviewimg[0].ipath}`);
+                            setPreviewImage(`http://13.209.93.111:8070${result.data.review.reviewimg[0].ipath}`);
                         }
 
                         // 댓글 데이터 다시 로드
@@ -216,7 +216,7 @@ function ReviewView() {
                                                 <div key={index}>
                                                     <img
                                                         className="contents-img"
-                                                        src={`http://localhost:8070${img.ipath}`}
+                                                        src={`http://13.209.93.111:8070${img.ipath}`}
                                                         alt={`Review ${index}`}
                                                     />
                                                 </div>
