@@ -256,6 +256,7 @@ function Main() {
             </div>
             <div className="rounded-lg border bg-card text-card-foreground shadow-sm w-[300px] hover:scale-105" data-v0-t="card">
               <img
+                // src="http://13.209.93.111:8070/images/jeju2.jpg"
                 src="http://13.209.93.111:8070/images/jeju2.jpg"
                 alt="Beach"
                 className="w-full h-[200px] object-cover rounded-t-md"
@@ -271,7 +272,8 @@ function Main() {
             </div>
             <div className="rounded-lg border bg-card text-card-foreground shadow-sm w-[300px] hover:scale-105" data-v0-t="card">
               <img
-                src="http://13.209.93.111:8070/images/gujedo.jpg"
+                // src="http://13.209.93.111:8070/images/gujedo.jpg"
+                src="http://13.209.93.111:8070/images/jeju2.jpg"
                 alt="Field"
                 className="w-full h-[200px] object-cover rounded-t-md"
                 width="300"
@@ -286,7 +288,8 @@ function Main() {
             </div>
             <div className="rounded-lg border bg-card text-card-foreground shadow-sm w-[300px] hover:scale-105" data-v0-t="card">
               <img
-                src="http://13.209.93.111:8070/images/gujedo.jpg"
+                // src="http://13.209.93.111:8070/images/gujedo.jpg"
+                src="http://13.209.93.111:8070/images/jeju2.jpg"
                 alt="Field"
                 className="w-full h-[200px] object-cover rounded-t-md"
                 width="300"
@@ -301,7 +304,8 @@ function Main() {
             </div>
             <div className="rounded-lg border bg-card text-card-foreground shadow-sm w-[300px] hover:scale-105" data-v0-t="card">
               <img
-                src="http://13.209.93.111:8070/images/gujedo.jpg"
+                // src="http://13.209.93.111:8070/images/gujedo.jpg"
+                src="http://13.209.93.111:8070/images/jeju2.jpg"
                 alt="Field"
                 className="w-full h-[200px] object-cover rounded-t-md"
                 width="300"
@@ -316,7 +320,8 @@ function Main() {
             </div>
             <div className="rounded-lg border bg-card text-card-foreground shadow-sm w-[300px] hover:scale-105" data-v0-t="card">
               <img
-                src="http://13.209.93.111:8070/images/gujedo.jpg"
+                // src="http://13.209.93.111:8070/images/gujedo.jpg"
+                src="http://13.209.93.111:8070/images/jeju2.jpg"
                 alt="Field"
                 className="w-full h-[200px] object-cover rounded-t-md"
                 width="300"
@@ -371,7 +376,8 @@ function Main() {
         <div className="grid grid-cols-3 gap-4">
           <div className="rounded-lg border bg-card text-card-foreground shadow-sm w-[300px] hover:scale-105" data-v0-t="card">
             <img
-              src="http://13.209.93.111:8070/images/ulleungdo.jpg"
+              // src="http://13.209.93.111:8070/images/ulleungdo.jpg"
+              src="http://13.209.93.111:8070/images/jeju2.jpg"
               alt="Forest"
               className="w-full h-[200px] object-cover rounded-t-md"
               width="300"
@@ -401,7 +407,8 @@ function Main() {
           </div>
           <div className="rounded-lg border bg-card text-card-foreground shadow-sm w-[300px] hover:scale-105" data-v0-t="card">
             <img
-              src="http://13.209.93.111:8070/images/gujedo.jpg"
+              // src="http://13.209.93.111:8070/images/gujedo.jpg"
+              src="http://13.209.93.111:8070/images/jeju2.jpg"
               alt="Field"
               className="w-full h-[200px] object-cover rounded-t-md"
               width="300"
